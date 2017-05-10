@@ -1,0 +1,67 @@
+#header {
+    font-family: 'Ranga', cursive;
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: indianred;
+}
+
+.menuitem:hover {
+    background: paleturquoise;
+}
+
+#logo {
+    float: left;
+}
+
+#logo>img {
+    width: 70px;
+    height: 100%;
+    border-radius: 30px 30px 0px 0px;
+    margin-right: 50px;
+}
+
+#banner {
+    float: right;
+}
+
+#banner>img {
+    height: 65px;
+    width: 500px;
+    float: right;
+}
+
+#text {
+    font-size: 26px;
+    font-weight: 600;
+    float: left;
+}
+
+#mainMenu {
+    height: 55px;
+    background: darkred;
+    width: 100%;
+    opacity: .4;
+    float: left;
+    margin-bottom: 75px;
+}
+
+.menuitem {
+    height: 100%;
+    width: 19%;
+    color: black;
+    font-size: 18px;
+    line-height: 55px;
+    display: inline-block;
+    background: palevioletred;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#desc {
+    font-size: 15px;
+}
